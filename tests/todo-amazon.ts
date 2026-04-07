@@ -6,4 +6,16 @@ test('test', async ({ page }) => {
   await page.getByRole('combobox', { name: 'Search' }).click();
   await page.getByRole('combobox', { name: 'Search' }).fill('testing');
   await page.getByRole('combobox', { name: 'Search' }).press('Enter');
+
+
+  
+  await page.getByRole('combobox', { name: 'Search' }).click();
+  
+  await page.getByRole('combobox', { name: 'Search' }).click();
+  
+  await page.getByRole('combobox', { name: 'Search' }).click();
+  
+  await page.getByRole('combobox', { name: 'Search' }).click();
 });
+
+
