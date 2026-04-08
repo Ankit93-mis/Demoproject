@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
-// text//
+// text is for merge conflict creation//
   // Expect a title "to contain" a substring.
    // Expect a title "to contain" a substring.
     // Expect a title "to contain" a substring.
